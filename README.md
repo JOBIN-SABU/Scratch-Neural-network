@@ -1,0 +1,85 @@
+# Neural Network from Scratch 🧠
+
+A minimal implementation of a single-layer neural network using only **Python** and **NumPy** — no external ML libraries.
+This project demonstrates the **core mechanics of neural networks**, including forward propagation, activation functions, loss calculation, and gradient descent.
+
+---
+
+## ✨ Features
+
+* Implementation of a custom `Neuron` class.
+* Forward propagation with **Sigmoid** activation.
+* Loss function: **Mean Squared Error (MSE)**.
+* Weight and bias updates using **Gradient Descent**.
+* Trained on a small dataset (e.g., Iris dataset).
+* Modular design with getter/setter methods for weights and bias.
+
+---
+
+## 📂 Project Structure
+
+```
+├── neuron.py        # Neuron class (forward pass + activation)
+├── train.py         # Training loop with gradient descent
+├── dataset.py       # Simple dataset loader (Iris demo)
+├── utils.py         # Helper functions (loss, metrics, plotting)
+└── README.md        # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/neural-net-from-scratch.git
+cd neural-net-from-scratch
+```
+
+### 2. Install dependencies
+
+```bash
+pip install numpy matplotlib
+```
+
+### 3. Run training
+
+```bash
+python train.py
+```
+
+---
+
+## 📊 Example Output
+
+* Training loss decreases with iterations.
+* Accuracy improves over epochs.
+* Final trained neuron classifies Iris dataset samples better than random.
+
+---
+
+## 📖 Concepts Covered
+
+* Forward propagation
+* Sigmoid activation function
+* Gradient descent update rule
+* MSE loss function
+* Basics of backpropagation (derivative of loss w.r.t weights & bias)
+
+---
+
+## 🔮 Future Improvements
+
+* Add support for multiple layers (MLP).
+* Implement more activation functions (ReLU, Tanh).
+* Try classification loss (Cross-Entropy).
+* Experiment with other datasets (MNIST, Wine dataset).
+
+---
+
+## 📜 License
+
+MIT License – feel free to use and modify.
+
+---
