@@ -16,17 +16,6 @@ This project demonstrates the **core mechanics of neural networks**, including f
 
 ---
 
-## 📂 Project Structure
-
-```
-├── neuron.py        # Neuron class (forward pass + activation)
-├── train.py         # Training loop with gradient descent
-├── dataset.py       # Simple dataset loader (Iris demo)
-├── utils.py         # Helper functions (loss, metrics, plotting)
-└── README.md        # Project documentation
-```
-
----
 
 
 ## 📊 Example Output
