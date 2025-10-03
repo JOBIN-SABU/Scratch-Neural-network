@@ -28,28 +28,6 @@ This project demonstrates the **core mechanics of neural networks**, including f
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/neural-net-from-scratch.git
-cd neural-net-from-scratch
-```
-
-### 2. Install dependencies
-
-```bash
-pip install numpy matplotlib
-```
-
-### 3. Run training
-
-```bash
-python train.py
-```
-
----
 
 ## 📊 Example Output
 
